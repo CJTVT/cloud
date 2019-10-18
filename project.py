@@ -38,7 +38,7 @@ while True:
     print(addr)
     # 处理数据
 
-    # data  = data.decode(encoding='utf-8').upper()
+    data  = data.decode(encoding='utf-8').upper()
 
     # data = "at %s :%s"%(ctime(),data)
 
@@ -53,14 +53,10 @@ while True:
     else:
 
        print(data)
-    
-       temperature = float(data[0:3])
 
-       humidity = float(data[4:7])
+   #     print(temperature)
 
-       print(temperature)
-
-       print(humidity)
+   #    print(humidity)
 
        json_body = [
 
